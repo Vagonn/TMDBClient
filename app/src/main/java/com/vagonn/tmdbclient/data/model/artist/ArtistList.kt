@@ -1,4 +1,4 @@
-package com.vagonn.tmdbclient.data
+package com.vagonn.tmdbclient.data.model.artist
 
 import com.google.gson.annotations.SerializedName
 

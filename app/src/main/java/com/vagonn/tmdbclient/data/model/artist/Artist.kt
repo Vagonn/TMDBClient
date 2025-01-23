@@ -1,8 +1,12 @@
-package com.vagonn.tmdbclient.data
+package com.vagonn.tmdbclient.data.model.artist
 
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 
+@Entity("popular_artists")
 data class Artist(
+    @PrimaryKey
     @SerializedName("id")
     val id: Int,
     @SerializedName("name")

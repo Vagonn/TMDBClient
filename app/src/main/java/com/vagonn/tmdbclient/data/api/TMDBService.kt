@@ -1,8 +1,8 @@
 package com.vagonn.tmdbclient.data.api
 
-import com.vagonn.tmdbclient.data.ArtistList
-import com.vagonn.tmdbclient.data.MovieList
-import com.vagonn.tmdbclient.data.TVShowList
+import com.vagonn.tmdbclient.data.model.artist.ArtistList
+import com.vagonn.tmdbclient.data.model.movie.MovieList
+import com.vagonn.tmdbclient.data.model.tvshow.TVShowList
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

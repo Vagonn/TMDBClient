@@ -1,4 +1,4 @@
-package com.vagonn.tmdbclient.data
+package com.vagonn.tmdbclient.data.model.tvshow
 
 import com.google.gson.annotations.SerializedName
 

@@ -4,5 +4,5 @@ import com.google.gson.annotations.SerializedName
 
 data class TVShowList(
     @SerializedName("results")
-    val results: List<TVShow>
+    val tvShows: List<TVShow>
 )
